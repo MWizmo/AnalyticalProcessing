@@ -10,15 +10,19 @@ def fillSuppliersTable(path, branch):
     logging.basicConfig(filename="log.txt", level=logging.INFO)
     log = logging.getLogger('SuppliersLogger')
     log.info('Started\n\n')
-    if branch == 1:
-        import xlrd
-        doc = xlrd.open_workbook(path)
-        sheet = doc.sheet_by_index(0)
-        succsessful_rows = 0
-        for row in range(1, sheet.nrows):
+    if branch == 2:
+        import convertor
+        zip_path = convertor.convert_accdb_to_xlsx(path)
+        path = convertor.unzip_files(zip_path) + '\\Suppliers.xlsx'
+    import xlrd
+    doc = xlrd.open_workbook(path)
+    sheet = doc.sheet_by_index(0)
+    succsessful_rows = 0
+    for row in range(1, sheet.nrows):
             try:
-                transformAndLoadSupplier(sheet.row(row)[0].value.replace('"', "'"), sheet.row(row)[1].value, sheet.row(row)[2].value,
-                                     int(sheet.row(row)[3].value),branch, cursor, db)
+                transformAndLoadSupplier(sheet.row(row)[branch - 1 + 0].value.replace('"', "'"),
+                                         sheet.row(row)[branch - 1 + 1].value,sheet.row(row)[branch - 1 + 2].value,
+                                         int(sheet.row(row)[branch - 1 + 3].value), branch, cursor, db)
                 succsessful_rows += 1
             except errors.EmptyName:
                 log.error('Документ ' + path + '\nСтрока ' + str(row + 1) + ': Пустое название поставщика')
@@ -32,14 +36,9 @@ def fillSuppliersTable(path, branch):
                           ': Некорректный уровень риска, невозможно заменить средним значением для данного филиала')
             except mysql.connector.errors.IntegrityError:
                 log.error('Документ ' + path + '\nСтрока ' + str(row + 1) + ': Нарушение Unique')
-        return 'Данные о поставщиках успешно добавлены в базу. Добавлено ' + str(succsessful_rows) + ' из ' + \
+    return 'Данные о поставщиках успешно добавлены в базу. Добавлено ' + str(succsessful_rows) + ' из ' + \
            str(sheet.nrows - 1) + ' записей. Подробности в файле log.txt'
-    else:
-        import pypyodbc
-        connection = pypyodbc.win_connect_mdb(path)
-        connection.cursor().execute('select * from Parts')
-        a = connection.cursor().fetchall()
-        connection.close()
+
 
 
 def transformAndLoadSupplier(title, city, address, risk, branch, cursor, db):

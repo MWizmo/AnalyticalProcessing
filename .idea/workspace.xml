@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c16d671-7866-451f-a231-d7df2ca8e201" name="Default Changelist" comment="" />
+    <list default="true" id="6c16d671-7866-451f-a231-d7df2ca8e201" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Branch_1.accdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/converted_accdb.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/converted_accdb/Deliveries.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/converted_accdb/Parts.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/converted_accdb/Suppliers.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convertor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Databases.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Databases.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ETL_Deliveries.py" beforeDir="false" afterPath="$PROJECT_DIR$/ETL_Deliveries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ETL_Parts.py" beforeDir="false" afterPath="$PROJECT_DIR$/ETL_Parts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ETL_Suppliers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ETL_Suppliers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poduction.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/Poduction.accdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,60 +29,74 @@
     <session id="-1571518654">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="14" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7118" />
+          <entry key="py" value="7431" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7118" />
+          <entry key="Python" value="7431" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="144" selection-start-line="144" selection-end-line="144" />
+            <state relative-caret-position="217">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
               <folding>
-                <marker date="1552985950030" expanded="true" signature="2418:2815" ph="..." />
-                <marker date="1552985950030" expanded="true" signature="2841:3995" ph="..." />
+                <marker date="1553535083925" expanded="true" signature="2418:2815" ph="..." />
+                <marker date="1553535083925" expanded="true" signature="2841:3995" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/convertor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ETL_Suppliers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+            <state relative-caret-position="425">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#2192#2773#0" />
               </folding>
             </state>
           </provider>
@@ -74,11 +105,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ETL_Deliveries.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+            <state relative-caret-position="240">
+              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1552989480225" expanded="true" signature="3331:3474" ph="..." />
+                <marker date="1553537015567" expanded="true" signature="3341:3484" ph="..." />
               </folding>
             </state>
           </provider>
@@ -87,11 +118,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ETL_Parts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+            <state relative-caret-position="276">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1553336416822" expanded="true" signature="3344:3345" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,15 +136,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ETL.py" />
         <option value="$PROJECT_DIR$/errors.py" />
+        <option value="$PROJECT_DIR$/convertor.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/ETL_Deliveries.py" />
-        <option value="$PROJECT_DIR$/ETL_Suppliers.py" />
         <option value="$PROJECT_DIR$/ETL_Parts.py" />
+        <option value="$PROJECT_DIR$/ETL_Suppliers.py" />
       </list>
     </option>
   </component>
@@ -123,6 +157,9 @@
     <option name="y" value="20" />
     <option name="width" value="797" />
     <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -159,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ETL_Parts">
+  <component name="RunManager" selected="Python.main">
     <configuration name="ETL" type="PythonConfigurationType" factoryName="Python">
       <module name="Databases" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -274,8 +311,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ETL_Parts" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.ETL_Parts" />
         <item itemvalue="Python.ETL_Deliveries" />
         <item itemvalue="Python.ETL_Suppliers" />
       </list>
@@ -296,19 +333,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
@@ -319,6 +355,17 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ETL_Parts.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/Python35/Lib/site-packages/adodbapi/adodbapi.py">
@@ -350,52 +397,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python35/Lib/site-packages/xlrd/sheet.py">
+    <entry file="file://D:/Python37/Lib/site-packages/mysql/connector/network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="474" selection-start-line="474" selection-end-line="474" />
+        <state relative-caret-position="291">
+          <caret line="517" selection-start-line="517" selection-end-line="517" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ETL_Suppliers.py">
+    <entry file="file://$PROJECT_DIR$/convertor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/xlrd/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="475" selection-start-line="475" selection-end-line="475" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <marker date="1553535083925" expanded="true" signature="2418:2815" ph="..." />
+            <marker date="1553535083925" expanded="true" signature="2841:3995" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ETL_Deliveries.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+        <state relative-caret-position="240">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1552989480225" expanded="true" signature="3331:3474" ph="..." />
+            <marker date="1553537015567" expanded="true" signature="3341:3484" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ETL_Parts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+        <state relative-caret-position="276">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1553336416822" expanded="true" signature="3344:3345" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/ETL_Suppliers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        <state relative-caret-position="425">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
-            <marker date="1552985950030" expanded="true" signature="2418:2815" ph="..." />
-            <marker date="1552985950030" expanded="true" signature="2841:3995" ph="..." />
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#2192#2773#0" />
           </folding>
         </state>
       </provider>

@@ -10,12 +10,15 @@ def fillDeliveriesTable(path, branch):
     logging.basicConfig(filename="log.txt", level=logging.INFO)
     log = logging.getLogger('DeliveriesLogger')
     log.info('Started\n\n')
-    if branch == 1:
-        import xlrd
-        doc = xlrd.open_workbook(path)
-        sheet = doc.sheet_by_index(0)
-        succsessful_rows = 0
-        for row in range(1, sheet.nrows):
+    if branch == 2:
+        import convertor
+        zip_path = convertor.convert_accdb_to_xlsx(path)
+        path = convertor.unzip_files(zip_path) + '\\Deliveries.xlsx'
+    import xlrd
+    doc = xlrd.open_workbook(path)
+    sheet = doc.sheet_by_index(0)
+    succsessful_rows = 0
+    for row in range(1, sheet.nrows):
             date = sheet.row(row)[4].value
             if date == '':
                 log.error('Документ ' + path + '\nСтрока ' + str(row + 1) + ': Пустое поле даты')
@@ -23,8 +26,9 @@ def fillDeliveriesTable(path, branch):
             date = xlrd.xldate.xldate_as_datetime(date, doc.datemode)
             date = str(date.year) + '-' + str(date.month) + '-' + str(date.day)
             try:
-                transformAndLoadDelivery(sheet.row(row)[0].value, sheet.row(row)[1].value, sheet.row(row)[2].value,
-                                    sheet.row(row)[3].value, date, branch, cursor, db)
+                transformAndLoadDelivery(sheet.row(row)[branch - 1 + 0].value, sheet.row(row)[branch - 1 + 1].value,
+                                         sheet.row(row)[branch - 1 + 2].value, sheet.row(row)[branch - 1 + 3].value,
+                                         date, branch, cursor, db)
                 succsessful_rows += 1
             except errors.EmptyName:
                 log.error('Документ ' + path + '\nСтрока ' + str(row + 1) + ': Пустые ключи')
@@ -39,14 +43,8 @@ def fillDeliveriesTable(path, branch):
                           ': Нарушение внешнего ключа (ссылка на несуществующую запись)')
             except mysql.connector.errors.DatabaseError:
                 log.error('Документ ' + path + '\nСтрока ' + str(row + 1) + ': Превышение допустимого веса поставки')
-        return 'Данные о поставках успешно добавлены в базу. Добавлено ' + str(succsessful_rows) + ' из ' + \
+    return 'Данные о поставках успешно добавлены в базу. Добавлено ' + str(succsessful_rows) + ' из ' + \
            str(sheet.nrows - 1) + ' записей. Подробности в файле log.txt'
-    else:
-        import pypyodbc
-        connection = pypyodbc.win_connect_mdb(path)
-        connection.cursor().execute('select * from Parts')
-        a = connection.cursor().fetchall()
-        connection.close()
 
 
 def transformAndLoadDelivery(s_id, p_id, qty, price, date, branch, cursor, db):

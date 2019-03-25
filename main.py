@@ -126,18 +126,22 @@ class Window(QWidget):
         qp.end()
 
     def process(self):
-        if self.table == 1:
-            import ETL_Suppliers
-            mess = ETL_Suppliers.fillSuppliersTable(self.path, self.branch)
-            QMessageBox.warning(self, 'Info', mess, QMessageBox.Ok)
-        elif self.table ==2:
-            import ETL_Parts
-            mess = ETL_Parts.fillPartsTable(self.path, self.branch)
-            QMessageBox.warning(self, 'Info', mess, QMessageBox.Ok)
-        else:
-            import ETL_Deliveries
-            mess = ETL_Deliveries.fillDeliveriesTable(self.path, self.branch)
-            QMessageBox.warning(self, 'Info', mess, QMessageBox.Ok)
+        import mysql.connector
+        try:
+            if self.table == 1:
+                import ETL_Suppliers
+                mess = ETL_Suppliers.fillSuppliersTable(self.path, self.branch)
+                QMessageBox.warning(self, 'Info', mess, QMessageBox.Ok)
+            elif self.table ==2:
+                import ETL_Parts
+                mess = ETL_Parts.fillPartsTable(self.path, self.branch)
+                QMessageBox.warning(self, 'Info', mess, QMessageBox.Ok)
+            else:
+                import ETL_Deliveries
+                mess = ETL_Deliveries.fillDeliveriesTable(self.path, self.branch)
+                QMessageBox.warning(self, 'Info', mess, QMessageBox.Ok)
+        except mysql.connector.errors.InterfaceError:
+            QMessageBox.warning(self, 'Warning', 'Невозможно подключиться к БД', QMessageBox.Ok)
 
 
 app = QApplication(sys.argv)

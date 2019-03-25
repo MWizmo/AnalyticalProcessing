@@ -451,3 +451,42 @@ ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databa
 Строка 20: Нарушение внешнего ключа (ссылка на несуществующую запись)
 ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
 Строка 21: Нарушение внешнего ключа (ссылка на несуществующую запись)
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:PartsLogger:Started
+
+
+INFO:PartsLogger:Started
+
+
+INFO:PartsLogger:Started
+
+
+INFO:PartsLogger:Started
+
+

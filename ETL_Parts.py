@@ -10,14 +10,20 @@ def fillPartsTable(path, branch):
     logging.basicConfig(filename="log.txt", level=logging.INFO)
     log = logging.getLogger('PartsLogger')
     log.info('Started\n\n')
-    if branch == 1:
-        import xlrd
-        doc = xlrd.open_workbook(path)
-        sheet = doc.sheet_by_index(0)
-        succsessful_rows = 0
-        for row in range(1, sheet.nrows):
+    if branch == 2:
+        import convertor
+        zip_path = convertor.convert_accdb_to_xlsx(path)
+        path = convertor.unzip_files(zip_path) + '\\Parts.xlsx'
+        print(path)
+    import xlrd
+    doc = xlrd.open_workbook(path)
+    sheet = doc.sheet_by_index(0)
+    succsessful_rows = 0
+    for row in range(1, sheet.nrows):
             try:
-                transformAndLoadPart(sheet.row(row)[0].value, sheet.row(row)[1].value, sheet.row(row)[2].value, sheet.row(row)[3].value, branch, cursor, db)
+                transformAndLoadPart(sheet.row(row)[branch - 1 + 0].value, sheet.row(row)[branch - 1 + 1].value,
+                                     sheet.row(row)[branch - 1 + 2].value, sheet.row(row)[branch - 1 + 3].value,
+                                     branch, cursor, db)
                 succsessful_rows += 1
             except errors.EmptyName:
                 log.error('Документ ' + path + '\nСтрока ' + str(row + 1) + ': Пустое название детали')
@@ -31,10 +37,9 @@ def fillPartsTable(path, branch):
                           ': Отрицательный вес детали, невозможно заменить средним значением для данного филиала')
             except mysql.connector.errors.IntegrityError:
                 log.error('Документ ' + path + '\nСтрока ' + str(row + 1) + ': Нарушение Unique')
-        return 'Данные о деталях успешно добавлены в базу. Добавлено '+str(succsessful_rows)+' из ' +\
+    return 'Данные о деталях успешно добавлены в базу. Добавлено '+str(succsessful_rows)+' из ' +\
                str(sheet.nrows-1)+' записей. Подробности в файле log.txt'
-    else:
-        pass
+
 
 
 def transformAndLoadPart(title, city, color, weight, branch, cursor, db):
