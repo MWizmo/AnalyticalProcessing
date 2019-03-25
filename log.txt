@@ -1,0 +1,453 @@
+ERROR:ex:Error
+ERROR:root:Error
+ERROR:PartsLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+ Строка 3: Пустое название детали
+ERROR:PartsLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 1: Нарушение Unique
+ERROR:PartsLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 2: Нарушение Unique
+ERROR:PartsLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 3: Пустое название детали
+ERROR:PartsLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 4: Пустое название детали
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 3: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 3: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 4: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 5: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 6: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 7: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 3: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 4: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 5: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 6: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 7: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 3: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 4: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 5: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 6: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 7: Некорректный уровень риска, невозможно заменить средним значением
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:\Users\Пользователь\Desktop\Code\Python\Databases\Test.xlsx
+Строка 7: Некорректный уровень риска, невозможно заменить средним значением
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 2: Пустое название города, невозможно заменить наиболее частым значением
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 7: Пустое название детали
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 23: Нарушение Unique
+INFO:SuppliersLogger:
+Started
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 3: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 4: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 5: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 6: Нарушение Unique
+INFO:PartsLogger:Started
+
+
+INFO:PartsLogger:Started
+
+
+INFO:PartsLogger:Started
+
+
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 2: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 3: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 4: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 5: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 6: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 7: Пустое название детали
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 8: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 9: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 10: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 11: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 12: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 13: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 14: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 15: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 16: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 17: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 18: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 19: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 20: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 21: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 22: Нарушение Unique
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 23: Нарушение Unique
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 2: Пустой адрес поставщика
+INFO:SuppliersLogger:Started
+
+
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 2: Пустой адрес поставщика
+INFO:SuppliersLogger:Started
+
+
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 2: Пустой адрес поставщика
+INFO:SuppliersLogger:Started
+
+
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 2: Пустой адрес поставщика
+INFO:SuppliersLogger:Started
+
+
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 3: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 4: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 5: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 6: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 7: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 8: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 9: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 10: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 11: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 12: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 13: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 14: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 15: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 16: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 17: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 18: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 19: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 20: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 21: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 22: Нарушение Unique
+INFO:PartsLogger:Started
+
+
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 2: Пустое название города, невозможно заменить наиболее частым значением
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 7: Пустое название детали
+ERROR:PartsLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Parts.xlsx
+Строка 23: Нарушение Unique
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+INFO:SuppliersLogger:Started
+
+
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 3: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 4: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 5: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 6: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 7: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 8: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 9: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 10: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 11: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 12: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 13: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 14: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 15: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 16: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 17: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 18: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 19: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 20: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 21: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 22: Нарушение Unique
+INFO:SuppliersLogger:Started
+
+
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 3: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 4: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 5: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 6: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 7: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 8: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 9: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 10: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 11: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 12: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 13: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 14: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 15: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 16: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 17: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 18: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 19: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 20: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 21: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Suppliers.xlsx
+Строка 22: Нарушение Unique
+INFO:DeliveriesLogger:Started
+
+
+INFO:DeliveriesLogger:Started
+
+
+INFO:DeliveriesLogger:Started
+
+
+INFO:DeliveriesLogger:Started
+
+
+INFO:DeliveriesLogger:Started
+
+
+INFO:DeliveriesLogger:Started
+
+
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 2: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 3: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 4: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 5: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 6: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 7: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 8: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 9: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 10: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 11: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 12: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 13: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 14: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 15: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 16: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 17: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 18: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 19: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 20: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 21: Нарушение внешнего ключа (ссылка на несуществующую запись)
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 2: Превышение допустимого веса поставки
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 2: Превышение допустимого веса поставки
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 2: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 3: Некорректное значение цены, невозможно заменить частым значением в рамках данного филиала
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 4: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 5: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 15: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 16: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 20: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 21: Нарушение внешнего ключа (ссылка на несуществующую запись)
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 2: Превышение допустимого веса поставки
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 2: Превышение допустимого веса поставки
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 2: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 3: Некорректное значение цены, невозможно заменить частым значением в рамках данного филиала
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 4: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 5: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 15: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 16: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 20: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 21: Нарушение внешнего ключа (ссылка на несуществующую запись)
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 2: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 3: Некорректное значение цены, невозможно заменить частым значением в рамках данного филиала
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 4: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 5: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 15: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 16: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 20: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 21: Нарушение внешнего ключа (ссылка на несуществующую запись)
