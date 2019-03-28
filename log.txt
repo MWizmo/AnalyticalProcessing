@@ -490,3 +490,60 @@ INFO:PartsLogger:Started
 INFO:PartsLogger:Started
 
 
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 2: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 3: Некорректное значение цены, невозможно заменить частым значением в рамках данного филиала
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 4: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 5: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 15: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 16: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 20: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 21: Нарушение внешнего ключа (ссылка на несуществующую запись)
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 2: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 3: Некорректное значение цены, невозможно заменить частым значением в рамках данного филиала
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 4: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 5: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 15: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 16: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 20: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 21: Нарушение внешнего ключа (ссылка на несуществующую запись)
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 2: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 3: Некорректное значение цены, невозможно заменить частым значением в рамках данного филиала
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 4: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 5: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 15: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 16: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 20: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
+Строка 21: Нарушение внешнего ключа (ссылка на несуществующую запись)
