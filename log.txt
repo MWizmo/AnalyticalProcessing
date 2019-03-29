@@ -547,3 +547,67 @@ ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databa
 Строка 20: Нарушение внешнего ключа (ссылка на несуществующую запись)
 ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Deliveries.xlsx
 Строка 21: Нарушение внешнего ключа (ссылка на несуществующую запись)
+INFO:SuppliersLogger:Started
+
+
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 2: Пустой адрес поставщика
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 3: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 4: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 5: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 6: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 7: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 8: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 9: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 10: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 11: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 12: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 13: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 14: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 15: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 16: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 17: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 18: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 19: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 20: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 21: Нарушение Unique
+ERROR:SuppliersLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Suppliers.xlsx
+Строка 22: Нарушение Unique
+INFO:DeliveriesLogger:Started
+
+
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Deliveries.xlsx
+Строка 2: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Deliveries.xlsx
+Строка 3: Некорректное значение цены, невозможно заменить частым значением в рамках данного филиала
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Deliveries.xlsx
+Строка 4: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Deliveries.xlsx
+Строка 5: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Deliveries.xlsx
+Строка 15: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Deliveries.xlsx
+Строка 16: Превышение допустимого веса поставки
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Deliveries.xlsx
+Строка 20: Нарушение внешнего ключа (ссылка на несуществующую запись)
+ERROR:DeliveriesLogger:Документ C:/Users/Пользователь/Desktop/Code/Python/Databases/Files/Deliveries.xlsx
+Строка 21: Нарушение внешнего ключа (ссылка на несуществующую запись)

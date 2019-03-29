@@ -62,8 +62,8 @@ def transformAndLoadDelivery(s_id, p_id, qty, price, date, branch, cursor, db):
         price = averagePrice(getCity(s_id, cursor), branch, cursor)
         if price == -1:
             raise errors.BadPrice
-    cursor.execute('INSERT INTO Deliveries(S_ID,P_ID,Quantity,Price,ShipDate) VALUES ('+str(s_id)+','+str(p_id)+',' +
-                   str(qty)+','+str(price)+',"'+date+'")')
+    cursor.execute('INSERT INTO Deliveries(S_ID,P_ID,Quantity,Price,ShipDate,Branch) VALUES ('+str(s_id)+','+str(p_id)+',' +
+                   str(qty)+','+str(price)+',"'+date+'",'+str(branch)+')')
     db.commit()
 
 
