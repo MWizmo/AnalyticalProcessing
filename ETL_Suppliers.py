@@ -13,7 +13,7 @@ def fillSuppliersTable(path, branch):
     if branch == 2:
         import convertor
         zip_path = convertor.convert_accdb_to_xlsx(path)
-        path = convertor.unzip_files(zip_path) + '\\Suppliers.xlsx'
+        path = convertor.unzip_files(zip_path) + '\\S.xlsx'
     import xlrd
     doc = xlrd.open_workbook(path)
     sheet = doc.sheet_by_index(0)
@@ -36,6 +36,8 @@ def fillSuppliersTable(path, branch):
                           ': Некорректный уровень риска, невозможно заменить средним значением для данного филиала')
             except mysql.connector.errors.IntegrityError:
                 log.error('Документ ' + path + '\nСтрока ' + str(row + 1) + ': Нарушение Unique')
+            except:
+                continue
     return 'Данные о поставщиках успешно добавлены в базу. Добавлено ' + str(succsessful_rows) + ' из ' + \
            str(sheet.nrows - 1) + ' записей. Подробности в файле log.txt'
 
@@ -50,7 +52,7 @@ def transformAndLoadSupplier(title, city, address, risk, branch, cursor, db):
             raise errors.EmptyCity
     if address == '':
         raise errors.EmptyAddress
-    if risk < 1 or risk > 3:
+    if risk == '' or risk < 1 or risk > 3:
         risk = averageRisk(city, branch, cursor)
         if risk is None:
             raise errors.BadValue

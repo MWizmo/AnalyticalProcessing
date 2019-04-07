@@ -4,9 +4,11 @@ from PyQt5.QtCore import QCoreApplication, Qt
 from PyQt5.QtGui import QColor, QPainter
 import reports
 import os
+import mysql.connector
+import export
 
 
-class LoadWindow(QWidget):
+class ImportWindow(QWidget):
     def __init__(self, parent):
         super().__init__()
         self.path = ''
@@ -70,7 +72,7 @@ class LoadWindow(QWidget):
         qbtn.move(250, 240)
 
         self.setGeometry(400, 400, 400, 300)
-        self.setWindowTitle('Загрузка данных')
+        self.setWindowTitle('Импорт данных')
         self.show()
 
     def close(self):
@@ -133,7 +135,6 @@ class LoadWindow(QWidget):
         qp.end()
 
     def process(self):
-        import mysql.connector
         try:
             if self.table == 1:
                 import ETL_Suppliers
@@ -149,6 +150,56 @@ class LoadWindow(QWidget):
                 QMessageBox.warning(self, 'Info', mess, QMessageBox.Ok)
         except mysql.connector.errors.InterfaceError:
             QMessageBox.warning(self, 'Warning', 'Невозможно подключиться к БД', QMessageBox.Ok)
+
+
+class ExportWindow(QWidget):
+    def __init__(self, parent):
+        super().__init__()
+        self.parent = parent
+        self.initUI()
+        self.center()
+
+    def initUI(self):
+        dir_lbl = QLabel(self)
+        dir_lbl.setText('Выберите данные для экспорта')
+        dir_lbl.setGeometry(20, 20, 200, 20)
+
+        exp_btn = QPushButton('Данные о поставках', self)
+        exp_btn.clicked.connect(self.process)
+        exp_btn.setGeometry(20, 50, 150, 35)
+
+        supp_btn = QPushButton('Данные о поставщиках', self)
+        supp_btn.setGeometry(200, 50, 150, 35)
+
+        qbtn = QPushButton('Вернуться', self)
+        qbtn.clicked.connect(self.close)
+        qbtn.resize(140, 25)
+        qbtn.move(20, 120)
+
+        self.setGeometry(400, 400, 400, 160)
+        self.setWindowTitle('Экспорт данных')
+        self.show()
+
+    def close(self):
+        self.hide()
+        self.parent.show()
+
+
+    def center(self):
+        qr = self.frameGeometry()
+        cp = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
+
+    def process(self):
+        try:
+            path = export.export_deliveries_by_dates()
+            os.startfile(os.curdir + '//' + path)
+            QMessageBox.warning(self, 'Info', 'Выгрузку данных о поставках можно найти по адресу  ' + path,
+                                QMessageBox.Ok)
+        except mysql.connector.errors.InterfaceError:
+            QMessageBox.warning(self, 'Warning', 'Невозможно подключиться к БД', QMessageBox.Ok)
+
 
 
 class ClientWindow(QWidget):
@@ -182,8 +233,8 @@ class ClientWindow(QWidget):
         pr_btn.clicked.connect(self.import_data)
         pr_btn.setGeometry(30, 290, 140, 40)
 
-        qbtn = QPushButton('Завершить работу', self)
-        qbtn.clicked.connect(QCoreApplication.instance().quit)
+        qbtn = QPushButton('Экспорт данных', self)
+        qbtn.clicked.connect(self.export_data)
         qbtn.resize(140, 40)
         qbtn.move(280, 290)
 
@@ -209,33 +260,50 @@ class ClientWindow(QWidget):
         qp.end()
 
     def import_data(self):
-        self.load_window = LoadWindow(self)
-        self.load_window.show()
+        self.import_window = ImportWindow(self)
+        self.import_window.show()
         self.hide()
 
     def report_weight_city(self):
-        path = reports.report_weight_city()
-        os.startfile(os.curdir + '//' + path)
-        QMessageBox.warning(self, 'Info', 'Отчет успешно сгенерирован. Вы можете найти его по адресу ' + path,
-                            QMessageBox.Ok)
+        try:
+            path = reports.report_weight_city()
+            os.startfile(os.curdir + '//' + path)
+            QMessageBox.warning(self, 'Info', 'Отчет успешно сгенерирован. Вы можете найти его по адресу ' + path,
+                                QMessageBox.Ok)
+        except mysql.connector.errors.InterfaceError:
+            QMessageBox.warning(self, 'Warning', 'Невозможно подключиться к БД', QMessageBox.Ok)
 
     def peport_weight_price(self):
-        path = reports.report_weight_price()
-        os.startfile(os.curdir + '//' + path)
-        QMessageBox.warning(self, 'Info', 'Отчет успешно сгенерирован. Вы можете найти его по адресу ' + path,
-                            QMessageBox.Ok)
+        try:
+            path = reports.report_weight_price()
+            os.startfile(os.curdir + '//' + path)
+            QMessageBox.warning(self, 'Info', 'Отчет успешно сгенерирован. Вы можете найти его по адресу ' + path,
+                                QMessageBox.Ok)
+        except mysql.connector.errors.InterfaceError:
+            QMessageBox.warning(self, 'Warning', 'Невозможно подключиться к БД', QMessageBox.Ok)
 
     def report_price_weight(self):
-        path = reports.report_price_weight()
-        os.startfile(os.curdir + '//' + path)
-        QMessageBox.warning(self, 'Info', 'Отчет успешно сгенерирован. Вы можете найти его по адресу ' + path,
-                            QMessageBox.Ok)
+        try:
+            path = reports.report_price_weight()
+            os.startfile(os.curdir + '//' + path)
+            QMessageBox.warning(self, 'Info', 'Отчет успешно сгенерирован. Вы можете найти его по адресу ' + path,
+                                QMessageBox.Ok)
+        except mysql.connector.errors.InterfaceError:
+            QMessageBox.warning(self, 'Warning', 'Невозможно подключиться к БД', QMessageBox.Ok)
 
     def report_price_city(self):
-        path = reports.report_price_city()
-        os.startfile(os.curdir + '//' + path)
-        QMessageBox.warning(self, 'Info', 'Отчет успешно сгенерирован. Вы можете найти его по адресу ' + path,
-                            QMessageBox.Ok)
+        try:
+            path = reports.report_price_city()
+            os.startfile(os.curdir + '//' + path)
+            QMessageBox.warning(self, 'Info', 'Отчет успешно сгенерирован. Вы можете найти его по адресу ' + path,
+                                QMessageBox.Ok)
+        except mysql.connector.errors.InterfaceError:
+            QMessageBox.warning(self, 'Warning', 'Невозможно подключиться к БД', QMessageBox.Ok)
+
+    def export_data(self):
+        self.export_window = ExportWindow(self)
+        self.export_window.show()
+        self.hide()
 
 
 app = QApplication(sys.argv)

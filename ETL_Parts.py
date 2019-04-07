@@ -13,7 +13,7 @@ def fillPartsTable(path, branch):
     if branch == 2:
         import convertor
         zip_path = convertor.convert_accdb_to_xlsx(path)
-        path = convertor.unzip_files(zip_path) + '\\Parts.xlsx'
+        path = convertor.unzip_files(zip_path) + '\\P.xlsx'
         print(path)
     import xlrd
     doc = xlrd.open_workbook(path)

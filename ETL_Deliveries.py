@@ -13,18 +13,21 @@ def fillDeliveriesTable(path, branch):
     if branch == 2:
         import convertor
         zip_path = convertor.convert_accdb_to_xlsx(path)
-        path = convertor.unzip_files(zip_path) + '\\Deliveries.xlsx'
+        path = convertor.unzip_files(zip_path) + '\\SP.xlsx'
     import xlrd
     doc = xlrd.open_workbook(path)
     sheet = doc.sheet_by_index(0)
     succsessful_rows = 0
     for row in range(1, sheet.nrows):
-            date = sheet.row(row)[4].value
+            date = float(sheet.row(row)[4].value)
             if date == '':
                 log.error('Документ ' + path + '\nСтрока ' + str(row + 1) + ': Пустое поле даты')
                 continue
             date = xlrd.xldate.xldate_as_datetime(date, doc.datemode)
-            date = str(date.year) + '-' + str(date.month) + '-' + str(date.day)
+            if branch == 1:
+                date = str(date.year) + '-' + str(date.month) + '-' + str(date.day)
+            else:
+                date = str(date.year + 112) + '-' + str(date.month) + '-' + str(date.day)
             try:
                 transformAndLoadDelivery(sheet.row(row)[branch - 1 + 0].value, sheet.row(row)[branch - 1 + 1].value,
                                          sheet.row(row)[branch - 1 + 2].value, sheet.row(row)[branch - 1 + 3].value,
@@ -69,7 +72,10 @@ def transformAndLoadDelivery(s_id, p_id, qty, price, date, branch, cursor, db):
 
 def getCity(s_id, cursor):
     cursor.execute('SELECT s.City from Suppliers s join Deliveries d on s.ID=d.S_ID WHERE s.ID='+str(s_id))
-    return cursor.fetchone()[0]
+    try:
+        return cursor.fetchone()[0]
+    except:
+        return '-1'
 
 
 def commonQty(city, branch, cursor):
