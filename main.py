@@ -184,7 +184,6 @@ class ExportWindow(QWidget):
         self.hide()
         self.parent.show()
 
-
     def center(self):
         qr = self.frameGeometry()
         cp = QDesktopWidget().availableGeometry().center()

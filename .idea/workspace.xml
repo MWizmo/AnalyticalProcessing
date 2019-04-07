@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c16d671-7866-451f-a231-d7df2ca8e201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/export.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ETL_Deliveries.py" beforeDir="false" afterPath="$PROJECT_DIR$/ETL_Deliveries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ETL_Parts.py" beforeDir="false" afterPath="$PROJECT_DIR$/ETL_Parts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ETL_Suppliers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ETL_Suppliers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Branch_1.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Branch_1.accdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Deliveries.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Deliveries.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Parts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Parts.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Suppliers.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Suppliers.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,10 +65,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="1115" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="Python" value="1115" />
         </counts>
       </usages-collector>
@@ -98,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="170" column="60" selection-start-line="170" selection-start-column="60" selection-end-line="170" selection-end-column="60" />
+            <state relative-caret-position="242">
+              <caret line="185" selection-start-line="185" selection-end-line="185" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <element signature="e#317#5408#0" />
@@ -110,12 +103,12 @@
                 <element signature="e#8009#8426#0" />
                 <element signature="e#8471#8888#0" />
                 <element signature="e#8931#9346#0" />
-                <marker date="1554666557606" expanded="true" signature="2490:2543" ph="..." />
-                <marker date="1554666557606" expanded="true" signature="2570:2967" ph="..." />
-                <marker date="1554666557606" expanded="true" signature="2993:4147" ph="..." />
-                <marker date="1554666557606" expanded="true" signature="6966:10994" ph="..." />
-                <marker date="1554666557606" expanded="true" signature="9515:9947" ph="..." />
-                <marker date="1554666557606" expanded="true" signature="9977:9982" ph="..." />
+                <marker date="1554666813777" expanded="true" signature="2490:2543" ph="..." />
+                <marker date="1554666813777" expanded="true" signature="2570:2967" ph="..." />
+                <marker date="1554666813777" expanded="true" signature="2993:4147" ph="..." />
+                <marker date="1554666813777" expanded="true" signature="6965:10993" ph="..." />
+                <marker date="1554666813777" expanded="true" signature="9514:9946" ph="..." />
+                <marker date="1554666813777" expanded="true" signature="9976:9981" ph="..." />
               </folding>
             </state>
           </provider>
@@ -407,12 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553893404108</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Экспорт данных для KNIME">
+      <created>1554666753403</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554666753403</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -439,7 +438,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавлен импорт из Access" />
     <MESSAGE value="Добавлена генерация отчетов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлена генерация отчетов" />
+    <MESSAGE value="Экспорт данных для KNIME" />
+    <option name="LAST_COMMIT_MESSAGE" value="Экспорт данных для KNIME" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -567,8 +567,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="170" column="60" selection-start-line="170" selection-start-column="60" selection-end-line="170" selection-end-column="60" />
+        <state relative-caret-position="242">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
             <element signature="e#317#5408#0" />
@@ -579,12 +579,12 @@
             <element signature="e#8009#8426#0" />
             <element signature="e#8471#8888#0" />
             <element signature="e#8931#9346#0" />
-            <marker date="1554666557606" expanded="true" signature="2490:2543" ph="..." />
-            <marker date="1554666557606" expanded="true" signature="2570:2967" ph="..." />
-            <marker date="1554666557606" expanded="true" signature="2993:4147" ph="..." />
-            <marker date="1554666557606" expanded="true" signature="6966:10994" ph="..." />
-            <marker date="1554666557606" expanded="true" signature="9515:9947" ph="..." />
-            <marker date="1554666557606" expanded="true" signature="9977:9982" ph="..." />
+            <marker date="1554666813777" expanded="true" signature="2490:2543" ph="..." />
+            <marker date="1554666813777" expanded="true" signature="2570:2967" ph="..." />
+            <marker date="1554666813777" expanded="true" signature="2993:4147" ph="..." />
+            <marker date="1554666813777" expanded="true" signature="6965:10993" ph="..." />
+            <marker date="1554666813777" expanded="true" signature="9514:9946" ph="..." />
+            <marker date="1554666813777" expanded="true" signature="9976:9981" ph="..." />
           </folding>
         </state>
       </provider>
